@@ -1,0 +1,78 @@
+html {
+  margin: 0;
+  
+}
+
+body {
+  margin: 0;
+  background-color: rgb(161, 165, 168);
+  
+  --container-height: 300px;
+  --container-width: 600px;
+}
+
+.h1 {
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(172, 171, 171);
+  box-shadow: 1px 3px 5px ;
+  position: sticky;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: rgb(127, 128, 129);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 90px auto;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  width: var(--container-width);
+  height: var(--container-height);
+}
+
+.box {
+  background-color: transparent;
+  font-size: 20px;
+  color: rgb(99, 101, 103);
+  text-align: center;
+  text-shadow: 1px 2px 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: calc((var(--container-height)) / 2);
+  width: calc((var(--container-width)) - 50%);
+  height: calc((var(--container-height)) / 2);
+}
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+.b5 {
+  left: calc((var(--container-width)) - 75%);
+  top: calc((var(--container-height)) - 75%);
+  position: absolute;
+  background-color: transparent;
+}
+
+.b5:hover {
+  left: calc((var(--container-width)) - 75%);
+  top: calc((var(--container-height)) - 75%);
+  position: absolute;
+  background-color: red;
+}
+
+.b1:hover {
+  background-color: rgb(133, 134, 134);
+  opacity: 1;
+}
+
+.b2:hover {
+  background-color: rgb(121, 187, 137);
+}
